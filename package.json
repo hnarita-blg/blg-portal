@@ -4,10 +4,10 @@
   "description": "BLG Portal Site - Static website for portal functionality",
   "main": "public/index.html",
   "scripts": {
-    "dev": "echo 'Development server not configured yet'",
-    "build": "echo 'Build process not required for static site'",
-    "deploy": "node scripts/deploy.js",
-    "quick-deploy": "git add . && git commit -m \"Quick update\" && git push origin main",
+    "build": "node scripts/build.js",
+    "dev": "npm run build && npm run preview",
+    "deploy": "npm run build && node scripts/deploy.js",
+    "quick-deploy": "npm run build && git add . && git commit -m \"Quick update\" && git push origin main",
     "serve": "python3 -m http.server 8000 --directory public",
     "preview": "npm run serve"
   },
