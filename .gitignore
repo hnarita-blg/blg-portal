@@ -58,3 +58,4 @@ CLAUDE.md
 # Development tools
 package.json
 scripts/
+.claude/
