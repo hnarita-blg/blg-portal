@@ -1,6 +1,6 @@
 
 
-.normal-button {
+button .normal-button {
     color: #3b3b3b;
     border: 2px solid #3b3b3b;
     font-size: 16px;
@@ -10,7 +10,7 @@
     transition: .3s;
 }
 
-.normal-button:hover {
+button .normal-button:hover {
     color: #fff;
     background: #3b3b3b;
 }
