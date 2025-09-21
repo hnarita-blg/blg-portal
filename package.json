@@ -1,0 +1,27 @@
+{
+  "name": "blg-portal-site",
+  "version": "1.0.0",
+  "description": "BLG Portal Site - Static website for portal functionality",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "echo 'Development server not configured yet'",
+    "build": "echo 'Build process not required for static site'",
+    "deploy": "node scripts/deploy.js",
+    "quick-deploy": "git add . && git commit -m \"Quick update\" && git push origin main",
+    "serve": "python3 -m http.server 8000 --directory public",
+    "preview": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hnarita-blg/blg-portal.git"
+  },
+  "keywords": [
+    "portal",
+    "static-site",
+    "github-pages"
+  ],
+  "author": "BLG",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

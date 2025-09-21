@@ -51,3 +51,10 @@ $RECYCLE.BIN/
 # Cache
 .cache/
 .parcel-cache/
+
+# Project documentation
+CLAUDE.md
+
+# Development tools
+package.json
+scripts/
