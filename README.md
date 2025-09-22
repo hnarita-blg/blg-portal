@@ -12,7 +12,7 @@ https://hnarita-blg.github.io/blg-portal/
 - **CSS3** - スタイリング
 - **JavaScript** - インタラクティブ機能
 - **jQuery 1.9.1** - DOM操作とイベント処理
-- **ExtJS 3.4.0** - UIコンポーネントとアプリケーション基盤
+- **Ext JS 7.2.0** - UIコンポーネントとアプリケーション基盤
 
 ### ワークフロー統合
 - **SateraitoWF** - 承認ワークフロー統合
